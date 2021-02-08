@@ -1,7 +1,7 @@
 # dinkbot
 fun bot for discord servers
 
-list of commands:
+functions:
 d!hello
 d!info
 d!random
@@ -12,3 +12,9 @@ d!big
 d!face
 d!face2
 d!nsfw
+tongue react on eyes
+status message
+'hello im' messages
+dink replies
+hi/hello replies
+repeat messages (optional)
