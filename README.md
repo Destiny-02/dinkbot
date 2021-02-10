@@ -18,3 +18,5 @@ status message
 dink replies
 hi/hello replies
 repeat messages (optional)
+
+hosted in the cloud (UptimeRobot)
