@@ -1,8 +1,4 @@
-# Works with Python 3.6
-# need to make 'hello im' more efficient
-# test everything
-# mentions dont work (3)
-# 417446445155745802
+# Works with Python 3.9
 import discord
 import emoji
 import random
