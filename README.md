@@ -1,5 +1,6 @@
 # dinkbot
-fun bot for discord servers
+fun bot for discord servers \
+made with python (discord.py)
 
 # link
 https://discordapp.com/oauth2/authorize?client_id=648062824836497409&scope=bot
