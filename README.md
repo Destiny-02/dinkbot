@@ -21,4 +21,4 @@ greets any user that introduces themself in the text channel (eg. I'm Destiny!) 
 replies to dinks \
 replies to hi/hello 
 
-hosted in the cloud (UptimeRobot)
+hosted in the cloud (UptimeRobot + Repl.it)
