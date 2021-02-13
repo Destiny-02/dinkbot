@@ -5,6 +5,9 @@ made with python (discord.py)
 # link
 https://discordapp.com/oauth2/authorize?client_id=648062824836497409&scope=bot
 
+# website 
+https://dinkbot.000webhostapp.com/index.php
+
 # functions
 `d!hello` - greets user \
 `d!info` - shows list of commands \
