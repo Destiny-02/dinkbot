@@ -41,9 +41,9 @@ client = discord.Client(intents=intents)
 @client.event
 async def on_message(message):
 
-    
-    # we do not want the bot to reply to itself
-    if message.author == client.user:
+    # we do not want the bot to reply to itself and other bots
+
+    if message.author.bot: 
         return
 
     # tongue react on any eyes
