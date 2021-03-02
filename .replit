@@ -1,0 +1,3 @@
+run="python dinkbot.py"
+language="python3"
+onBoot="echo Booting up!"
