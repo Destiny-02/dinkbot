@@ -152,6 +152,10 @@ async def on_message(message):
     if message.content.lower() == "dink":
         await message.channel.send(":tongue:***__DINK__***:tongue:")
 
+    # detects name
+    if message.content.lower().find('dinkbot') != -1:
+        await message.channel.send("did someone say something :eyes:")
+
 
 @client.event
 async def on_ready():
