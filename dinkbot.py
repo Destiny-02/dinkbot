@@ -53,7 +53,7 @@ async def on_message(message):
 
     # help
     if message.content.startswith('d!info') or message.content.startswith('d!help')or message.content.startswith('d!commands'):
-        msg = 'd!hello \nd!info \nd!random \nd!dink <user> (use exact discord name, not nickname)\nd!doink <user>\nd!special <user>\nd!big \nd!face\nd!face2\nd!nsfw\n\n made by Destiny \nhttps://github.com/Destiny-02/dinkbot'
+        msg = 'd!hello \nd!info \nd!random \nd!dink <user> (use exact discord name, not nickname)\nd!doink <user>\nd!special <user>\nd!big \nd!face\nd!face2\nd!nsfw\n\n made by Destiny \nhttps://destiny-02.github.io/index.html'
         embed_msg = discord.Embed(title="List of commands", description=msg, color=0x852d49)
         await message.channel.send(embed = embed_msg)
 
