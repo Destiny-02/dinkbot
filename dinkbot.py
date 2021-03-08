@@ -43,13 +43,13 @@ async def on_message(message):
 
     
     # we do not want the bot to reply to itself and other bots
-
     if message.author.bot: 
         return
 
-    # tongue react on any eyes
-    if message.content.startswith(emoji.emojize(':eyes:')):
-        await message.add_reaction('\U0001f445')
+    # dinkbot is playing ... 
+    await client.change_presence(activity=discord.Game(name='d!info'))
+
+    ################# COMMAND BASED FEATURES START HERE #################
 
     # help
     if message.content.startswith('d!info') or message.content.startswith('d!help')or message.content.startswith('d!commands'):
@@ -120,8 +120,12 @@ async def on_message(message):
         embed_msg = discord.Embed(title="dink stands for...", description=msg, color=0x852d49)
         await message.channel.send(embed = embed_msg)
 
-    # dinkbot is playing ... 
-    await client.change_presence(activity=discord.Game(name='d!info'))
+    
+    #################### NON-COMMAND FEATURES START HERE #######################
+    
+    # tongue react on any eyes
+    if message.content.startswith(emoji.emojize(':eyes:')):
+        await message.add_reaction('\U0001f445')
 
     # i'm
     if message.content.lower().startswith('im '): 
@@ -156,6 +160,7 @@ async def on_ready():
     print(client.user.name)
     print(client.user.id)
     print('------')
+
 
 keep_alive()
 client.run(TOKEN)
