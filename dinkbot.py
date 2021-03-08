@@ -149,12 +149,6 @@ async def on_message(message):
     if message.content.lower() == "dink":
         await message.channel.send(":tongue:***__DINK__***:tongue:")
 
-'''
-    # repeat
-    msg = message.content
-    await message.channel.send(msg)
-'''
-
 
 @client.event
 async def on_ready():
