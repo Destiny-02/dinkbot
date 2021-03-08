@@ -22,7 +22,7 @@ def find_dink(dictionary, letter_emojis):
     for i in range(0, 4): 
         line = letter_emojis[i]
         # finds random word in dictionary
-        line += dictionary[i][random.randrange(0, len(dictionary[i]))]
+        line += dictionary[i][random.randrange(0, len(dictionary[i]))][1:]
         line += "\n"
         dink_string += line
     return dink_string
