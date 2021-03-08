@@ -6,7 +6,7 @@ made with python (discord.py)
 https://discordapp.com/oauth2/authorize?client_id=648062824836497409&scope=bot
 
 # website 
-https://dinkbot.000webhostapp.com/index.php
+https://destiny-02.github.io/
 
 # functions
 `d!hello` - greets user \
