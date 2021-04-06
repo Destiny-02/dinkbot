@@ -22,6 +22,7 @@ https://destiny-02.github.io/
 tongue react on eyes emojis\
 greets any user that introduces themself in the text channel (eg. I'm Destiny!) \
 replies to dinks \
-replies to hi/hello 
+replies to hi/hello \
+will reply if anyone is talking about them
 
 hosted in the cloud (UptimeRobot + Repl.it)
