@@ -35,13 +35,9 @@ client = discord.Client(intents=intents)
 @client.event
 async def on_message(message):
 
-    
     # we do not want the bot to reply to itself and other bots
     if message.author.bot: 
         return
-
-    # dinkbot is playing ... 
-    await client.change_presence(activity=discord.Game(name='d!info'))
 
     ################# COMMAND BASED FEATURES START HERE #################
 
@@ -159,6 +155,8 @@ async def on_message(message):
 
 @client.event
 async def on_ready():
+    # dinkbot is playing ...
+    await client.change_presence(activity=discord.Game(name='d!info'))
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
