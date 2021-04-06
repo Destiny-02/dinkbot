@@ -74,8 +74,8 @@ async def on_message(message):
 
         # nsfw >:3
         if command == 'nsfw':
-            msg = ':eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n:eyes:\n:tongue:\n'
-            await message.channel.send(msg)
+            for x in range(10):
+              await message.channel.send(':eyes:\n:tongue:\n')
 
         # hello
         if command == 'hello':
