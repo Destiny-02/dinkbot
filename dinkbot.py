@@ -152,6 +152,12 @@ async def on_message(message):
     if message.content.lower().find('dinkbot') != -1:
         await message.channel.send("did someone say something :eyes:")
 
+    # yes replies to no and vice versa
+    if message.content.lower().startswith('yes'):
+        await message.channel.send("no")
+    if message.content.lower().startswith('no'):
+        await message.channel.send("yes")
+
 
 @client.event
 async def on_ready():
