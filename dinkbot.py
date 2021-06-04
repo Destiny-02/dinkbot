@@ -74,8 +74,11 @@ async def on_message(message):
 
         # nsfw >:3
         if command == 'nsfw':
-            for x in range(10):
-              await message.channel.send(':eyes:\n:tongue:\n')
+          top_text = ['don\'t say I didn\'t warn you...', 'you asked for it ... ', 'dim your screen ...', 'here are 50 of copies of my beautiful face ...']
+          msg = random.choice(top_text)
+          for x in range(50):
+            msg = msg + '\n:eyes:\n:tongue:'
+          await message.channel.send(msg)
 
         # hello
         if command == 'hello':
