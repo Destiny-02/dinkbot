@@ -156,7 +156,7 @@ async def on_message(message):
         await message.channel.send("did someone say something :eyes:")
 
     # detects 69
-    if message.content.lower().find('69') != -1:
+    if message.content.lower().startswith('69'):
         await message.channel.send("nice")
 
     # yes replies to no and vice versa
