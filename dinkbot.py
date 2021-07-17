@@ -51,7 +51,7 @@ async def on_message(message):
 
         # help
         if command == 'info' or command == 'help' or command == 'commands':
-            msg = 'd!hello \nd!info \nd!random \nd!dink <user> (use exact discord name, not nickname)\nd!doink <user>\nd!special <user>\nd!big \nd!face\nd!face2\nd!nsfw\n\n made by Destiny \nhttps://inspiring-brattain-0236eb.netlify.app/index.html'
+            msg = 'd!hello \nd!info \nd!random \nd!dink <user> (use exact discord name, not nickname)\nd!doink <user>\nd!special <user>\nd!big \nd!face\nd!face2\nd!nsfw\n\n made by Destiny \nhttps://dinkbot.netlify.app/'
             embed_msg = discord.Embed(title="List of commands", description=msg, color=0x852d49)
             await message.channel.send(embed = embed_msg)
 
