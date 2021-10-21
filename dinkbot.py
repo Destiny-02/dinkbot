@@ -159,11 +159,29 @@ async def on_message(message):
     if message.content.lower().startswith('69'):
         await message.channel.send("nice")
 
-    # yes replies to no and vice versa
+    # yes replies 
     if message.content.lower().startswith('yes'):
-        await message.channel.send("no")
-    if message.content.lower().startswith('no'):
-        await message.channel.send("yes")
+        await message.channel.send(random.choice(["yes", "no", "no"]))
+    
+    # no replies (considers words like 'nothing')
+    if message.content.lower().strip() == 'no' or message.content.lower().strip() == 'no.' or message.content.lower().strip() == 'no!' or message.content.lower().strip() == 'nope':
+        await message.channel.send(random.choice(["yes", "no", "yes"]))
+    
+    # answer questions
+    if message.content.lower().startswith('how many'):
+        await message.channel.send("69")
+    elif message.content.lower().startswith('who'):
+        await message.channel.send("me")
+    elif message.content.lower().endswith('?'):
+        await message.channel.send("idk ¯\_(ツ)_/¯")
+
+    # knock knock jokes
+    if message.content.lower().startswith('knock knock'):
+        await message.channel.send("who's there???")
+
+    # laugh
+    if message.content.lower().startswith('lol'):
+        await message.channel.send("xD")
 
 
 @client.event
