@@ -6,7 +6,7 @@ made with python (discord.py)
 https://discordapp.com/oauth2/authorize?client_id=648062824836497409&scope=bot
 
 # website 
-https://inspiring-brattain-0236eb.netlify.app/index.html
+https://dinkbot.netlify.app/index.html
 
 # functions
 `d!hello` - greets user \
@@ -25,5 +25,3 @@ replies to dinks \
 replies to hi/hello \
 will reply if anyone is talking about them \
 will have a yes/no argument with you 
-
-hosted in the cloud (UptimeRobot + Repl.it)
