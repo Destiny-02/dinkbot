@@ -172,8 +172,8 @@ async def on_message(message):
         await message.channel.send("69")
     elif message.content.lower().startswith('who'):
         await message.channel.send("me")
-    elif message.content.lower().endswith('?'):
-        await message.channel.send("idk ¯\_(ツ)_/¯")
+    #elif message.content.lower().endswith('?'):
+    #    await message.channel.send("idk ¯\_(ツ)_/¯")
 
     # knock knock jokes
     if message.content.lower().startswith('knock knock'):
